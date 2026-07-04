@@ -1,0 +1,2 @@
+## Purpose
+This is a repo responsible for creating, organizing, and managing my personal mod pack and ensure the safe upgrade across minecraft versions using packwiz (configured to be automatically installed through this repo's dev container).
