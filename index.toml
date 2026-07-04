@@ -1,0 +1,21 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".devcontainer/devcontainer.json"
+hash = "b274f082293b44f4e34a8ccd848650a1392c7734510dbf75ba5e859f6000d6da"
+
+[[files]]
+file = ".devcontainer/setup-packwiz.sh"
+hash = "8bab9a91d466bd255f328a8642a110a0acc830a3e742bf90f5a7f352fe27c7dc"
+
+[[files]]
+file = "README.md"
+hash = "16a6ec918f7c47420c43053300650f58cd3b88c81f956c866a4cbd7880d6f6a9"
+
+[[files]]
+file = "copilot.md"
+hash = "0c3e00592916e450156d8fd4b5bb6ff137443dbc965c68f877bbd3dc5e1650ec"
+
+[[files]]
+file = "requirements.txt"
+hash = "0fea3bc9f8e3c70fc9f86dd58e6d89c5cfd3e37f5039db522ebd039fa88d7fc8"

@@ -1,0 +1,13 @@
+name = "test_modpack"
+author = "me mother fucker"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e6a1e65c99e4a2d87774a3fc86e24e36d534b6b92dfebe0a9c8287cf0f3f57dc"
+
+[versions]
+fabric = "0.19.2"
+minecraft = "26.2"
