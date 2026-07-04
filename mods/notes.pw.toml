@@ -1,0 +1,13 @@
+name = "Notes"
+filename = "Notes-26.2-2.3.0-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ko8Qabo1/versions/lbQQP5M3/Notes-26.2-2.3.0-fabric.jar"
+hash-format = "sha512"
+hash = "0d8012be9ed263aec3a86b934514eafd5928c262bd4279ccec101b58d94bac61d6684c313c148aac855a5bfb804321e7eb7ff9a421ce39a73b9b158a5a758734"
+
+[update]
+[update.modrinth]
+mod-id = "ko8Qabo1"
+version = "lbQQP5M3"

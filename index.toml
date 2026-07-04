@@ -17,5 +17,75 @@ file = "copilot.md"
 hash = "0c3e00592916e450156d8fd4b5bb6ff137443dbc965c68f877bbd3dc5e1650ec"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "62feaecc7c5afcf698c72f5f5edfda9562a2b2b6da30868cd36474c813073348"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds.pw.toml"
+hash = "3d5aaa7ebcf9db1ba268d896f68820786ff3e1d0e8680194cf6cd06a796c0f15"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "7e69c1869ee0d211bd0e801859950077af1b2a0cc1f1f73f7e08927d0da86563"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "9d37d326d9557fdd25c97d72ac1bbd1e74c524aa5dca437a91d0de645dff6545"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "3c5f48200041fbb985dcc7a21979f5315e146e7d6dd25c8e5721588490004154"
+metafile = true
+
+[[files]]
+file = "mods/iceberg.pw.toml"
+hash = "bc20df12a25903f6895af3469b667b0b9695ece55d65700e2a029cd4e86d1196"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "7e3d528b230dee6a7b1819c3e8d9f1ef391158da40e838926cffd3c5ffa4e109"
+metafile = true
+
+[[files]]
+file = "mods/item-highlighter.pw.toml"
+hash = "b4065cc0c1ce801d4cc9b887636edb4ddaf9feadaedf154defd9db2492dea894"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "eb229316b20d29f9c43986ef250dbbb905ddde009fcfe2f991971b2f8c136ea6"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "7acfb9e9d7b052728f518574f1e79d20a2ec3296e147fbd3794b033fef381947"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "e37b46af7cfa8f24e9895c37789b43d80d8abe519becf4f08d9e1ea1529fc126"
+metafile = true
+
+[[files]]
+file = "mods/notes.pw.toml"
+hash = "c7944ae2683b837406945600dfb139acf46e5217ea7bf5d149dcdc98398e61f0"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "6da3a9448d083b3aab7652307a5dde3de419ccda0b8e98b9f9ce8c00615a0361"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "b234ade7fd54bb9d99c27769cd1635b18835752676d0cdd0a29af2b4146251a8"
+metafile = true
+
+[[files]]
 file = "requirements.txt"
 hash = "0fea3bc9f8e3c70fc9f86dd58e6d89c5cfd3e37f5039db522ebd039fa88d7fc8"
