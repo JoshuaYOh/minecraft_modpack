@@ -1,6 +1,12 @@
 {
-  "name": "python-minimal",
+  "name": "minecraft-modpack",
   "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/java": {
+      "version": "17"
+    },
+    "ghcr.io/devcontainers/features/curl": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,5 +18,5 @@
       }
     }
   },
-  "postCreateCommand": "python -m pip install --upgrade pip"
+  "postCreateCommand": "python -m pip install --upgrade pip && curl -Lso /usr/local/lib/packwiz.jar https://github.com/packwiz/packwiz/releases/latest/download/packwiz.jar && printf '%s\n' '#!/bin/sh' 'exec java -jar /usr/local/lib/packwiz.jar \"$@\"' > /usr/local/bin/packwiz && chmod +x /usr/local/bin/packwiz"
 }
