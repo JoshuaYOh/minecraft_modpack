@@ -19,5 +19,6 @@
       }
     }
   },
-  "postCreateCommand": "python -m pip install --upgrade pip && curl -Lso /usr/local/lib/packwiz.jar https://github.com/packwiz/packwiz/releases/latest/download/packwiz.jar && printf '%s\n' '#!/bin/sh' 'exec java -jar /usr/local/lib/packwiz.jar \"$@\"' > /usr/local/bin/packwiz && chmod +x /usr/local/bin/packwiz"
+  "postCreateCommand": "set -e; python -m pip install --upgrade pip; curl -Lso /usr/local/lib/packwiz.jar https://github.com/packwiz/packwiz/releases/latest/download/packwiz.jar; printf '%s\n' '#!/bin/sh' 'exec java -jar /usr/local/lib/packwiz.jar \"$@\"' > /usr/local/bin/packwiz; chmod +x /usr/local/bin/packwiz; if command -v apt-get >/dev/null 2>&1; then export DEBIAN_FRONTEND=noninteractive; if command -v sudo >/dev/null 2>&1; then sudo apt-get update && sudo apt-get install -y git-lfs; else apt-get update && apt-get install -y git-lfs; fi; elif command -v apk >/dev/null 2>&1; then if command -v sudo >/dev/null 2>&1; then sudo apk add --no-cache git-lfs; else apk add --no-cache git-lfs; fi; fi; git lfs install",
+  "postStartCommand": "git lfs install"
 }
