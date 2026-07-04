@@ -17,3 +17,5 @@ python app.py
 ```bash
 python app.py
 ```
+
+> The dev container now includes Git LFS, so pushes that rely on Git LFS should work without needing a separate local install.
