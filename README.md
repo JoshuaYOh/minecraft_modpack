@@ -21,3 +21,25 @@ The `.devcontainer/devcontainer.json` file installs Packwiz on container create/
 - Make sure you are inside the Dev Container and not in the local host shell.
 - Rebuild/reopen the container again.
 - If needed, check `.devcontainer/devcontainer.json` for the install commands.
+
+
+
+### startup guide for host PC - SSH remote Tunneling:
+
+1. start up the ssh agent to allow vm to see public ssh key. on host pc.
+   run the following on host terminal:
+	Start-Service ssh-agent
+
+2. add the private key to the windows agent so that host pc can confirm vm's authentication
+   run the following on host terminal:
+	ssh-add
+
+3. start vm
+
+4. tunnel into vm using remote-ssh extension in host-pc's vscode instance
+
+5. 
+
+optional-shut-off: 
+   run the following on host terminal:
+	Stop-Service ssh-agent
