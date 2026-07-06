@@ -19,7 +19,7 @@
   },
 
   // Confirms packwiz is installed and on PATH as soon as the container is created.
-  "postCreateCommand": "packwiz --version",
+  // "postCreateCommand": "packwiz --version",
 
   "remoteUser": "vscode"
 }
