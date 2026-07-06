@@ -1,23 +1,25 @@
 {
-  "name": "minecraft-modpack",
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
-  "features": {
-    "ghcr.io/devcontainers/features/java": {
-      "version": "17"
-    },
-    "ghcr.io/devcontainers/features/git-lfs": {}
+  "name": "minecraft-modpack-manager",
+  "build": {
+    "dockerfile": "Dockerfile"
   },
+
+  // Workspace trust is bypassed at the VS Code/host level per the repo's setup,
+  // so no additional trust settings are needed here.
+
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance"
-      ],
-      "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python"
-      }
+        // No extensions are strictly required for packwiz (it's a CLI tool),
+        // but this is a place to add any you like (e.g. a TOML syntax highlighter
+        // since packwiz's index/mod files are .toml).
+        "tamasfe.even-better-toml"
+      ]
     }
   },
-  "postCreateCommand": "set -e; python -m pip install --upgrade pip; chmod +x /workspaces/minecraft_modpack/.devcontainer/setup-packwiz.sh; /workspaces/minecraft_modpack/.devcontainer/setup-packwiz.sh",
-  "postStartCommand": "git lfs install"
+
+  // Confirms packwiz is installed and on PATH as soon as the container is created.
+  "postCreateCommand": "packwiz --version",
+
+  "remoteUser": "vscode"
 }
