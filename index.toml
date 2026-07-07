@@ -6,11 +6,11 @@ hash = "ce7a0c8bd4f5fa3391194a5f62747de95332a8e68dd8b5b5e9bf3e501bb8f258"
 
 [[files]]
 file = ".devcontainer/devcontainer.json"
-hash = "0fd9870655bae1314e330df8aac0fafcdf3d798a0d6c19271fcd44c23d929011"
+hash = "8debf835289f3c4c5be9ce0f7198fa8e8d8ce5fffad84c901d3674cadcec3c97"
 
 [[files]]
 file = "README.md"
-hash = "16a6ec918f7c47420c43053300650f58cd3b88c81f956c866a4cbd7880d6f6a9"
+hash = "9a241cf848e404bf680bca0492b191ece72d7db1283d958c82c3cbd7265c0a2d"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
