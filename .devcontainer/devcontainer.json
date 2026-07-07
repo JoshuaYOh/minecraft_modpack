@@ -13,7 +13,8 @@
         // No extensions are strictly required for packwiz (it's a CLI tool),
         // but this is a place to add any you like (e.g. a TOML syntax highlighter
         // since packwiz's index/mod files are .toml).
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "GitHub.vscode-pull-request-github"
       ]
     }
   },
