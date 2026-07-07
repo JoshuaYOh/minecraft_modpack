@@ -1,0 +1,33 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".devcontainer/Dockerfile"
+hash = "ce7a0c8bd4f5fa3391194a5f62747de95332a8e68dd8b5b5e9bf3e501bb8f258"
+
+[[files]]
+file = ".devcontainer/devcontainer.json"
+hash = "0fd9870655bae1314e330df8aac0fafcdf3d798a0d6c19271fcd44c23d929011"
+
+[[files]]
+file = "README.md"
+hash = "16a6ec918f7c47420c43053300650f58cd3b88c81f956c866a4cbd7880d6f6a9"
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "62feaecc7c5afcf698c72f5f5edfda9562a2b2b6da30868cd36474c813073348"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "fa280daf316543afff2f69db87c655fdac0eab4a0455ff055714d43313247785"
+metafile = true
+
+[[files]]
+file = "resourcepacks/animated-items.pw.toml"
+hash = "387744595222a5295feab047d5f282b2ed3a0f9790a3655ccc5457e8fb028ab7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
+metafile = true
